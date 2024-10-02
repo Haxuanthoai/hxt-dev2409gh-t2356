@@ -148,6 +148,7 @@ h4:hover{
     margin-left:5px;
 }
 .home-banner{
+    background-image: url(./images/anhcat/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 8rem 10% 16rem 10%;
@@ -318,4 +319,130 @@ h4 {
     position: relative;
     margin-bottom: 2rem;
     font-size: 2rem;
+}
+@media (min-width: 768px) {
+    html,body{
+        font-size: 6px;
+       }
+       a,i,p{
+        font-size: 6px;
+       }
+       .hom-banner{
+        padding-top: 22rem;
+       }
+       header .logo a img{
+        width: 16px;
+        height: 100%;
+       }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    html,body{
+        font-size: 6px;
+       }
+       a,i,p{
+        font-size: 6px;
+       }
+       .hom-banner{
+        padding-top: 22rem;
+       }
+       header .logo a img{
+        width: 25px;
+        height: 100%;
+       }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    html,body{
+        font-size: 6px;
+       }
+       a,i,p{
+        font-size: 6px;
+       }
+       .hom-banner{
+        padding-top: 22rem;
+       }
+       header .logo a img{
+        width: 35px;
+        height: 100%;
+       }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    html,body{
+        font-size: 15px;
+       }
+       a,i,p{
+        font-size: 15px;
+       }
+       .hom-banner{
+        padding-top: 22rem;
+       }
+       header .logo a img{
+        width: 50px;
+        height: 100%;
+       }
+}
+
+
+/* // XXX-Large devices (larger X desktops, 1600px and up) */
+@media (min-width: 1600px) {
+    html,body{
+        font-size: 70px;
+       }
+       a,i,p{
+        font-size: 70px;
+       }
+       .hom-banner{
+        padding-top: 22rem;
+       }
+       header .logo a img{
+        width: 80px;
+        height: 100%;
+       }
+}
+
+/* // XXX-Large devices (larger X desktops, 1920px and up) */
+@media (min-width: 1920px) {
+    html,body{
+        font-size: 50px;
+       }
+       a,i,p{
+        font-size: 50px;
+       }
+       .hom-banner{
+        padding-top: 22rem;
+       }
+       header .logo a img{
+        width: 100px;
+        height: 100%;
+       }
+}
+.box-content{
+    background: #f3f3f3;
+    margin-top: 5rem;
+}
+.banner-page_title{
+    position: absolute;
+    top: 12rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-page_title img{
+    width: 6rem;
+    display: block;
+    margin: 0 auto;
+}
+.banner-page_title p{
+    font-size: 2rem;
+    color: #fff;
+}
+.box-about{
+    text-align: center;
+}
+.wrapper-box{
+    
 }
